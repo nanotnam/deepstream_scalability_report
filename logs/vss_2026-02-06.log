@@ -1,0 +1,1718 @@
+[2026-02-06 15:46:57.254] [info] __     ______ ____    ____  _____ ______     _______ ____       _    ____ ___ 
+[2026-02-06 15:46:57.254] [info] \ \   / / ___/ ___|  / ___|| ____|  _ \ \   / / ____|  _ \     / \  |  _ \_ _|
+[2026-02-06 15:46:57.254] [info]  \ \ / /\___ \___ \  \___ \|  _| | |_) \ \ / /|  _| | |_) |   / _ \ | |_) | | 
+[2026-02-06 15:46:57.254] [info]   \ V /  ___) |__) |  ___) | |___|  _ < \ V / | |___|  _ <   / ___ \|  __/| | 
+[2026-02-06 15:46:57.254] [info]    \_/  |____/____/  |____/|_____|_| \_\ \_/  |_____|_| \_\ /_/   \_\_|  |___|
+[2026-02-06 15:46:57.254] [info] +----------------------------------------------------------------------------+
+[2026-02-06 15:46:57.254] [info] | Copyright (c) 2022 Viettel High Technology Industries Corporation          |
+[2026-02-06 15:46:57.254] [info] |----------------------------------------------------------------------------|
+[2026-02-06 15:46:57.254] [info] | Service name                  |           VSS-video surveillance services  |
+[2026-02-06 15:46:57.254] [info] | Release                       |           2022-11-30                       |
+[2026-02-06 15:46:57.254] [info] | Service version               |           0.0.1                            |
+[2026-02-06 15:46:57.254] [info] | Deepstream version            |           7.1.0                            |
+[2026-02-06 15:46:57.254] [info] | TensorRT version              |           10.3.0                            |
+[2026-02-06 15:46:57.254] [info] | Device version                |           Orin                 |
+[2026-02-06 15:46:57.254] [info] +----------------------------------------------------------------------------+
+[2026-02-06 15:46:57.254] [info] [Server] Initializing...
+[2026-02-06 15:46:57.254] [info] [Server] Initialize successfully.
+[2026-02-06 15:46:57.291] [info] [Server] Server has been started at port: 9089
+[2026-02-06 15:54:24.105] [info] __     ______ ____    ____  _____ ______     _______ ____       _    ____ ___ 
+[2026-02-06 15:54:24.105] [info] \ \   / / ___/ ___|  / ___|| ____|  _ \ \   / / ____|  _ \     / \  |  _ \_ _|
+[2026-02-06 15:54:24.105] [info]  \ \ / /\___ \___ \  \___ \|  _| | |_) \ \ / /|  _| | |_) |   / _ \ | |_) | | 
+[2026-02-06 15:54:24.105] [info]   \ V /  ___) |__) |  ___) | |___|  _ < \ V / | |___|  _ <   / ___ \|  __/| | 
+[2026-02-06 15:54:24.105] [info]    \_/  |____/____/  |____/|_____|_| \_\ \_/  |_____|_| \_\ /_/   \_\_|  |___|
+[2026-02-06 15:54:24.105] [info] +----------------------------------------------------------------------------+
+[2026-02-06 15:54:24.105] [info] | Copyright (c) 2022 Viettel High Technology Industries Corporation          |
+[2026-02-06 15:54:24.105] [info] |----------------------------------------------------------------------------|
+[2026-02-06 15:54:24.105] [info] | Service name                  |           VSS-video surveillance services  |
+[2026-02-06 15:54:24.105] [info] | Release                       |           2022-11-30                       |
+[2026-02-06 15:54:24.105] [info] | Service version               |           0.0.1                            |
+[2026-02-06 15:54:24.105] [info] | Deepstream version            |           7.1.0                            |
+[2026-02-06 15:54:24.105] [info] | TensorRT version              |           10.3.0                            |
+[2026-02-06 15:54:24.105] [info] | Device version                |           Orin                 |
+[2026-02-06 15:54:24.105] [info] +----------------------------------------------------------------------------+
+[2026-02-06 15:54:24.105] [info] [Server] Initializing...
+[2026-02-06 15:54:24.105] [info] [Server] Initialize successfully.
+[2026-02-06 15:54:24.145] [info] [Server] Server has been started at port: 9089
+[2026-02-06 15:54:24.149] [warning] [Create Pipeline] Loading backup config ...
+[2026-02-06 15:54:24.153] [info] [Source] Initializing...
+[2026-02-06 15:54:24.174] [debug] [create_rtsp_src_bin] Add rtspsrc_monitor_probe_func to GST_PAD_PROBE_TYPE_BUFFER
+[2026-02-06 15:54:24.185] [info] [DumpConfig] Backup config to backup/config.json successfully
+[2026-02-06 15:54:24.186] [info] [Primary Gie] Initialize face_detection module
+[2026-02-06 15:54:24.187] [debug] Check path: models/face_detection/1.0.0/face_detection.yaml >> valid: true
+[2026-02-06 15:54:24.585] [info] [Tracking] Initialize face_tracking module
+[2026-02-06 15:54:24.641] [info] [Create Pipeline] Create pipeline ba739151-d551-4258-958a-db6a8491b5d0 successfully...
+[2026-02-06 15:57:15.940] [info] [Pipeline] Set play state for pipeline
+[2026-02-06 15:57:15.949] [debug] [bus_callback] sink_sub_bin_sink0 state changed from NULL to READY
+[2026-02-06 15:57:15.952] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:57:15.965] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:15.965] [debug] [bus_callback] sink_sub_bin_tee0 state changed from NULL to READY
+[2026-02-06 15:57:15.965] [debug] [bus_callback] sink_sub_bin_capsfilter0 state changed from NULL to READY
+[2026-02-06 15:57:15.965] [debug] [bus_callback] sink_sub_bin_videoconvert0 state changed from NULL to READY
+[2026-02-06 15:57:15.965] [debug] [bus_callback] sink_sub_bin_queue0 state changed from NULL to READY
+[2026-02-06 15:57:15.965] [debug] [bus_callback] encoder_bin0 state changed from NULL to READY
+[2026-02-06 15:57:15.965] [debug] [bus_callback] sink_sub_bin_osd0 state changed from NULL to READY
+[2026-02-06 15:57:15.965] [debug] [bus_callback] sink_sub_bin_videoconvert0 state changed from NULL to READY
+[2026-02-06 15:57:15.965] [debug] [bus_callback] sink_sub_bin_queue0 state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] osd_bin0 state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] sink_bin_demux state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] sink_bin_queue state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] multi_demux_sink_bin state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] tracking_tracker state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] tracking_bin state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] primary_gie state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] primary_gie_conv state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] primary_gie_queue state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] primary_gie_bin_0 state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] src_bin_muxer state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] nvvidconv_elem0 state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] src_que0 state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] typefind state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] decodebin_elem0 state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] dec_que0 state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] tee_rtsp_elem0 state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] src_elem0 state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] src_sub_bin0 state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] multi_src_bin state changed from NULL to READY
+[2026-02-06 15:57:15.966] [debug] [bus_callback] Pipeline state changed from NULL to READY
+[2026-02-06 15:57:15.966] [info] [bus_callback] Pipeline ready
+[2026-02-06 15:57:15.966] [debug] [bus_callback] sink_sub_bin_sink0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.966] [debug] [bus_callback] sink_sub_bin_tee0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.966] [debug] [bus_callback] sink_sub_bin_capsfilter0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.966] [debug] [bus_callback] sink_sub_bin_videoconvert0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.966] [debug] [bus_callback] sink_sub_bin_queue0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.966] [debug] [bus_callback] encoder_bin0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.966] [debug] [bus_callback] sink_sub_bin_osd0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.966] [debug] [bus_callback] sink_sub_bin_videoconvert0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.966] [debug] [bus_callback] sink_sub_bin_queue0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.966] [debug] [bus_callback] osd_bin0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] sink_bin_demux state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] sink_bin_queue state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] multi_demux_sink_bin state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] tracking_tracker state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] tracking_bin state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] primary_gie state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] primary_gie_conv state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] primary_gie_queue state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] primary_gie_bin_0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] src_bin_muxer state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] src_que0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] typefind state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] dec_que0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] src_elem0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] src_sub_bin0 state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] multi_src_bin state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] Pipeline state changed from READY to PAUSED
+[2026-02-06 15:57:15.967] [debug] [bus_callback] sink_sub_bin_sink0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] sink_sub_bin_tee0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] sink_sub_bin_capsfilter0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] sink_sub_bin_videoconvert0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] sink_sub_bin_queue0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] encoder_bin0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] sink_sub_bin_osd0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] sink_sub_bin_videoconvert0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] sink_sub_bin_queue0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] osd_bin0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] sink_bin_demux state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] sink_bin_queue state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] multi_demux_sink_bin state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] tracking_tracker state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] tracking_bin state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] primary_gie state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] primary_gie_conv state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] primary_gie_queue state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] primary_gie_bin_0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] src_bin_muxer state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] src_que0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] dec_que0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [debug] [bus_callback] src_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:15.967] [error] [bus_callback] ERROR from src_elem0: Could not open resource for reading and writing.
+[2026-02-06 15:57:15.967] [debug] [bus_callback] Debug info: ../gst/rtsp/gstrtspsrc.c(8130): gst_rtspsrc_retrieve_sdp (): /GstPipeline:va-pipeline_0/GstBin:multi_src_bin/GstBin:src_sub_bin0/GstRTSPSrc:src_elem0:
+Failed to connect. (Generic error)
+[2026-02-06 15:57:15.967] [info] [bus_callback] Source 0 Disconnect
+[2026-02-06 15:57:16.945] [info] [reset_source_pipeline] Resetting source 0
+[2026-02-06 15:57:16.946] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:16.946] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PLAYING to PAUSED
+[2026-02-06 15:57:16.946] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] nvvidconv_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 15:57:16.946] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 15:57:16.946] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] src_que0 state changed from PLAYING to PAUSED
+[2026-02-06 15:57:16.946] [debug] [bus_callback] src_que0 state changed from PAUSED to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] typefind state changed from PAUSED to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] decodebin_elem0 state changed from READY to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] dec_que0 state changed from PLAYING to PAUSED
+[2026-02-06 15:57:16.946] [debug] [bus_callback] dec_que0 state changed from PAUSED to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] tee_rtsp_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 15:57:16.946] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] src_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 15:57:16.946] [debug] [bus_callback] src_elem0 state changed from PAUSED to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] src_sub_bin0 state changed from PAUSED to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to NULL
+[2026-02-06 15:57:16.946] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to NULL
+[2026-02-06 15:57:16.946] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to NULL
+[2026-02-06 15:57:16.946] [debug] [bus_callback] src_que0 state changed from READY to NULL
+[2026-02-06 15:57:16.946] [debug] [bus_callback] typefind state changed from READY to NULL
+[2026-02-06 15:57:16.946] [debug] [bus_callback] decodebin_elem0 state changed from READY to NULL
+[2026-02-06 15:57:16.946] [debug] [bus_callback] dec_que0 state changed from READY to NULL
+[2026-02-06 15:57:16.946] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to NULL
+[2026-02-06 15:57:16.946] [debug] [bus_callback] src_elem0 state changed from READY to NULL
+[2026-02-06 15:57:16.946] [debug] [bus_callback] src_sub_bin0 state changed from READY to NULL
+[2026-02-06 15:57:16.946] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from NULL to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] nvvidconv_elem0 state changed from NULL to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from NULL to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] src_que0 state changed from NULL to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] typefind state changed from NULL to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] decodebin_elem0 state changed from NULL to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] dec_que0 state changed from NULL to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] tee_rtsp_elem0 state changed from NULL to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] src_elem0 state changed from NULL to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] src_sub_bin0 state changed from NULL to READY
+[2026-02-06 15:57:16.946] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to PAUSED
+[2026-02-06 15:57:16.946] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to PAUSED
+[2026-02-06 15:57:16.946] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to PAUSED
+[2026-02-06 15:57:16.946] [debug] [bus_callback] src_que0 state changed from READY to PAUSED
+[2026-02-06 15:57:16.946] [debug] [bus_callback] typefind state changed from READY to PAUSED
+[2026-02-06 15:57:16.946] [debug] [bus_callback] dec_que0 state changed from READY to PAUSED
+[2026-02-06 15:57:16.947] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to PAUSED
+[2026-02-06 15:57:16.947] [debug] [bus_callback] src_elem0 state changed from READY to PAUSED
+[2026-02-06 15:57:16.947] [debug] [bus_callback] src_sub_bin0 state changed from READY to PAUSED
+[2026-02-06 15:57:16.947] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to PLAYING
+[2026-02-06 15:57:16.947] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:16.947] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:16.947] [debug] [bus_callback] src_que0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:16.947] [debug] [bus_callback] dec_que0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:16.947] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:16.947] [debug] [bus_callback] src_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:16.948] [error] [bus_callback] ERROR from src_elem0: Could not open resource for reading and writing.
+[2026-02-06 15:57:16.948] [debug] [bus_callback] Debug info: ../gst/rtsp/gstrtspsrc.c(8130): gst_rtspsrc_retrieve_sdp (): /GstPipeline:va-pipeline_0/GstBin:multi_src_bin/GstBin:src_sub_bin0/GstRTSPSrc:src_elem0:
+Failed to connect. (Generic error)
+[2026-02-06 15:57:16.948] [info] [bus_callback] Source 0 Disconnect
+[2026-02-06 15:57:16.969] [info] [reset_source_pipeline] Resetting source 0
+[2026-02-06 15:57:16.969] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PLAYING to PAUSED
+[2026-02-06 15:57:16.969] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to READY
+[2026-02-06 15:57:16.969] [debug] [bus_callback] nvvidconv_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 15:57:16.969] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to READY
+[2026-02-06 15:57:16.969] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 15:57:16.969] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to READY
+[2026-02-06 15:57:16.969] [debug] [bus_callback] src_que0 state changed from PLAYING to PAUSED
+[2026-02-06 15:57:16.969] [debug] [bus_callback] src_que0 state changed from PAUSED to READY
+[2026-02-06 15:57:16.969] [debug] [bus_callback] typefind state changed from PAUSED to READY
+[2026-02-06 15:57:16.969] [debug] [bus_callback] decodebin_elem0 state changed from READY to READY
+[2026-02-06 15:57:16.969] [debug] [bus_callback] dec_que0 state changed from PLAYING to PAUSED
+[2026-02-06 15:57:16.970] [debug] [bus_callback] dec_que0 state changed from PAUSED to READY
+[2026-02-06 15:57:16.970] [debug] [bus_callback] tee_rtsp_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 15:57:16.970] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to READY
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_elem0 state changed from PAUSED to READY
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_sub_bin0 state changed from PAUSED to READY
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to NULL
+[2026-02-06 15:57:16.970] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to NULL
+[2026-02-06 15:57:16.970] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to NULL
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_que0 state changed from READY to NULL
+[2026-02-06 15:57:16.970] [debug] [bus_callback] typefind state changed from READY to NULL
+[2026-02-06 15:57:16.970] [debug] [bus_callback] decodebin_elem0 state changed from READY to NULL
+[2026-02-06 15:57:16.970] [debug] [bus_callback] dec_que0 state changed from READY to NULL
+[2026-02-06 15:57:16.970] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to NULL
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_elem0 state changed from READY to NULL
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_sub_bin0 state changed from READY to NULL
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from NULL to READY
+[2026-02-06 15:57:16.970] [debug] [bus_callback] nvvidconv_elem0 state changed from NULL to READY
+[2026-02-06 15:57:16.970] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from NULL to READY
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_que0 state changed from NULL to READY
+[2026-02-06 15:57:16.970] [debug] [bus_callback] typefind state changed from NULL to READY
+[2026-02-06 15:57:16.970] [debug] [bus_callback] decodebin_elem0 state changed from NULL to READY
+[2026-02-06 15:57:16.970] [debug] [bus_callback] dec_que0 state changed from NULL to READY
+[2026-02-06 15:57:16.970] [debug] [bus_callback] tee_rtsp_elem0 state changed from NULL to READY
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_elem0 state changed from NULL to READY
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_sub_bin0 state changed from NULL to READY
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to PAUSED
+[2026-02-06 15:57:16.970] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to PAUSED
+[2026-02-06 15:57:16.970] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to PAUSED
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_que0 state changed from READY to PAUSED
+[2026-02-06 15:57:16.970] [debug] [bus_callback] typefind state changed from READY to PAUSED
+[2026-02-06 15:57:16.970] [debug] [bus_callback] dec_que0 state changed from READY to PAUSED
+[2026-02-06 15:57:16.970] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to PAUSED
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_elem0 state changed from READY to PAUSED
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_sub_bin0 state changed from READY to PAUSED
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to PLAYING
+[2026-02-06 15:57:16.970] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:16.970] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_que0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:16.970] [debug] [bus_callback] dec_que0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:16.970] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:16.970] [debug] [bus_callback] src_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:57:16.971] [error] [bus_callback] ERROR from src_elem0: Could not open resource for reading and writing.
+[2026-02-06 15:57:16.971] [debug] [bus_callback] Debug info: ../gst/rtsp/gstrtspsrc.c(8130): gst_rtspsrc_retrieve_sdp (): /GstPipeline:va-pipeline_0/GstBin:multi_src_bin/GstBin:src_sub_bin0/GstRTSPSrc:src_elem0:
+Failed to connect. (Generic error)
+[2026-02-06 15:57:16.971] [info] [bus_callback] Source 0 Disconnect
+[2026-02-06 15:57:17.944] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:18.945] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:19.946] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:20.945] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:57:20.946] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:21.947] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:22.948] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:23.949] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:24.950] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:25.946] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:57:25.951] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:26.951] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:27.951] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:28.952] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:29.953] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:30.946] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:57:30.954] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:31.955] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:32.956] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:33.956] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:34.956] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:35.946] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:57:35.957] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:36.958] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:37.959] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:38.959] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:39.959] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:40.947] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:57:40.960] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:41.961] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:42.962] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:43.963] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:44.964] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:45.948] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:57:45.965] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:46.965] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:47.966] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:48.966] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:49.967] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:50.949] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:57:50.968] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:51.968] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:52.968] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:53.969] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:54.969] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:55.949] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:57:55.970] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:56.970] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:57.971] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:58.972] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:57:59.972] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:00.949] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:58:00.973] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:01.974] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:02.975] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:03.976] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:04.977] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:05.950] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:58:05.978] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:06.978] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:07.979] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:08.980] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:09.981] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:10.951] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:58:10.982] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:11.983] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:12.984] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:13.984] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:14.985] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:15.951] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:58:15.986] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:16.998] [info] [reset_source_pipeline] Resetting source 0
+[2026-02-06 15:58:16.999] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:16.999] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PLAYING to PAUSED
+[2026-02-06 15:58:16.999] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to READY
+[2026-02-06 15:58:16.999] [debug] [bus_callback] nvvidconv_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 15:58:16.999] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to READY
+[2026-02-06 15:58:16.999] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 15:58:16.999] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to READY
+[2026-02-06 15:58:16.999] [debug] [bus_callback] src_que0 state changed from PLAYING to PAUSED
+[2026-02-06 15:58:16.999] [debug] [bus_callback] src_que0 state changed from PAUSED to READY
+[2026-02-06 15:58:16.999] [debug] [bus_callback] typefind state changed from PAUSED to READY
+[2026-02-06 15:58:16.999] [debug] [bus_callback] decodebin_elem0 state changed from READY to READY
+[2026-02-06 15:58:16.999] [debug] [bus_callback] dec_que0 state changed from PLAYING to PAUSED
+[2026-02-06 15:58:16.999] [debug] [bus_callback] dec_que0 state changed from PAUSED to READY
+[2026-02-06 15:58:16.999] [debug] [bus_callback] tee_rtsp_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 15:58:16.999] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to READY
+[2026-02-06 15:58:16.999] [debug] [bus_callback] src_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 15:58:16.999] [debug] [bus_callback] src_elem0 state changed from PAUSED to READY
+[2026-02-06 15:58:16.999] [debug] [bus_callback] src_sub_bin0 state changed from PAUSED to READY
+[2026-02-06 15:58:16.999] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to NULL
+[2026-02-06 15:58:16.999] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to NULL
+[2026-02-06 15:58:16.999] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to NULL
+[2026-02-06 15:58:16.999] [debug] [bus_callback] src_que0 state changed from READY to NULL
+[2026-02-06 15:58:16.999] [debug] [bus_callback] typefind state changed from READY to NULL
+[2026-02-06 15:58:16.999] [debug] [bus_callback] decodebin_elem0 state changed from READY to NULL
+[2026-02-06 15:58:17.000] [debug] [bus_callback] dec_que0 state changed from READY to NULL
+[2026-02-06 15:58:17.000] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to NULL
+[2026-02-06 15:58:17.000] [debug] [bus_callback] src_elem0 state changed from READY to NULL
+[2026-02-06 15:58:17.000] [debug] [bus_callback] src_sub_bin0 state changed from READY to NULL
+[2026-02-06 15:58:17.000] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from NULL to READY
+[2026-02-06 15:58:17.000] [debug] [bus_callback] nvvidconv_elem0 state changed from NULL to READY
+[2026-02-06 15:58:17.000] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from NULL to READY
+[2026-02-06 15:58:17.000] [debug] [bus_callback] src_que0 state changed from NULL to READY
+[2026-02-06 15:58:17.000] [debug] [bus_callback] typefind state changed from NULL to READY
+[2026-02-06 15:58:17.000] [debug] [bus_callback] decodebin_elem0 state changed from NULL to READY
+[2026-02-06 15:58:17.000] [debug] [bus_callback] dec_que0 state changed from NULL to READY
+[2026-02-06 15:58:17.000] [debug] [bus_callback] tee_rtsp_elem0 state changed from NULL to READY
+[2026-02-06 15:58:17.000] [debug] [bus_callback] src_elem0 state changed from NULL to READY
+[2026-02-06 15:58:17.000] [debug] [bus_callback] src_sub_bin0 state changed from NULL to READY
+[2026-02-06 15:58:17.000] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to PAUSED
+[2026-02-06 15:58:17.000] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to PAUSED
+[2026-02-06 15:58:17.000] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to PAUSED
+[2026-02-06 15:58:17.000] [debug] [bus_callback] src_que0 state changed from READY to PAUSED
+[2026-02-06 15:58:17.000] [debug] [bus_callback] typefind state changed from READY to PAUSED
+[2026-02-06 15:58:17.000] [debug] [bus_callback] dec_que0 state changed from READY to PAUSED
+[2026-02-06 15:58:17.000] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to PAUSED
+[2026-02-06 15:58:17.000] [debug] [bus_callback] src_elem0 state changed from READY to PAUSED
+[2026-02-06 15:58:17.000] [debug] [bus_callback] src_sub_bin0 state changed from READY to PAUSED
+[2026-02-06 15:58:17.000] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to PLAYING
+[2026-02-06 15:58:17.000] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:58:17.000] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:58:17.000] [debug] [bus_callback] src_que0 state changed from PAUSED to PLAYING
+[2026-02-06 15:58:17.000] [debug] [bus_callback] dec_que0 state changed from PAUSED to PLAYING
+[2026-02-06 15:58:17.000] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:58:17.000] [debug] [bus_callback] src_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:58:17.000] [error] [bus_callback] ERROR from src_elem0: Could not open resource for reading and writing.
+[2026-02-06 15:58:17.000] [debug] [bus_callback] Debug info: ../gst/rtsp/gstrtspsrc.c(8130): gst_rtspsrc_retrieve_sdp (): /GstPipeline:va-pipeline_0/GstBin:multi_src_bin/GstBin:src_sub_bin0/GstRTSPSrc:src_elem0:
+Failed to connect. (Generic error)
+[2026-02-06 15:58:17.000] [info] [bus_callback] Source 0 Disconnect
+[2026-02-06 15:58:17.986] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:18.987] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:19.987] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:20.952] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:58:20.988] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:21.988] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:22.988] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:23.988] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:24.989] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:25.952] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:58:25.990] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:26.990] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:27.991] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:28.991] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:29.991] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:30.953] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:58:30.992] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:31.993] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:32.994] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:33.995] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:34.995] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:35.953] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:58:35.996] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:36.996] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:37.997] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:38.998] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:39.999] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:40.953] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:58:41.000] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:42.000] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:43.000] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:44.001] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:45.002] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:45.953] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:58:46.003] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:47.003] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:48.004] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:49.005] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:50.006] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:50.954] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:58:51.006] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:52.006] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:53.007] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:54.008] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:55.009] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:55.953] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:58:56.009] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:57.010] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:58.010] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:58:59.011] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:00.012] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:00.954] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:59:01.013] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:02.014] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:03.014] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:04.015] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:05.016] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:05.954] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:59:06.017] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:07.017] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:08.017] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:09.018] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:10.019] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:10.955] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:59:11.020] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:12.021] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:13.022] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:14.022] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:15.022] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:15.955] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:59:16.024] [info] [reset_source_pipeline] Resetting source 0
+[2026-02-06 15:59:16.024] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:16.024] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PLAYING to PAUSED
+[2026-02-06 15:59:16.024] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to READY
+[2026-02-06 15:59:16.024] [debug] [bus_callback] nvvidconv_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 15:59:16.024] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to READY
+[2026-02-06 15:59:16.024] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 15:59:16.024] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to READY
+[2026-02-06 15:59:16.024] [debug] [bus_callback] src_que0 state changed from PLAYING to PAUSED
+[2026-02-06 15:59:16.024] [debug] [bus_callback] src_que0 state changed from PAUSED to READY
+[2026-02-06 15:59:16.024] [debug] [bus_callback] typefind state changed from PAUSED to READY
+[2026-02-06 15:59:16.024] [debug] [bus_callback] decodebin_elem0 state changed from READY to READY
+[2026-02-06 15:59:16.024] [debug] [bus_callback] dec_que0 state changed from PLAYING to PAUSED
+[2026-02-06 15:59:16.024] [debug] [bus_callback] dec_que0 state changed from PAUSED to READY
+[2026-02-06 15:59:16.024] [debug] [bus_callback] tee_rtsp_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 15:59:16.024] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to READY
+[2026-02-06 15:59:16.024] [debug] [bus_callback] src_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 15:59:16.025] [debug] [bus_callback] src_elem0 state changed from PAUSED to READY
+[2026-02-06 15:59:16.025] [debug] [bus_callback] src_sub_bin0 state changed from PAUSED to READY
+[2026-02-06 15:59:16.025] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to NULL
+[2026-02-06 15:59:16.025] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to NULL
+[2026-02-06 15:59:16.025] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to NULL
+[2026-02-06 15:59:16.025] [debug] [bus_callback] src_que0 state changed from READY to NULL
+[2026-02-06 15:59:16.025] [debug] [bus_callback] typefind state changed from READY to NULL
+[2026-02-06 15:59:16.025] [debug] [bus_callback] decodebin_elem0 state changed from READY to NULL
+[2026-02-06 15:59:16.025] [debug] [bus_callback] dec_que0 state changed from READY to NULL
+[2026-02-06 15:59:16.025] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to NULL
+[2026-02-06 15:59:16.025] [debug] [bus_callback] src_elem0 state changed from READY to NULL
+[2026-02-06 15:59:16.025] [debug] [bus_callback] src_sub_bin0 state changed from READY to NULL
+[2026-02-06 15:59:16.025] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from NULL to READY
+[2026-02-06 15:59:16.025] [debug] [bus_callback] nvvidconv_elem0 state changed from NULL to READY
+[2026-02-06 15:59:16.025] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from NULL to READY
+[2026-02-06 15:59:16.025] [debug] [bus_callback] src_que0 state changed from NULL to READY
+[2026-02-06 15:59:16.025] [debug] [bus_callback] typefind state changed from NULL to READY
+[2026-02-06 15:59:16.025] [debug] [bus_callback] decodebin_elem0 state changed from NULL to READY
+[2026-02-06 15:59:16.025] [debug] [bus_callback] dec_que0 state changed from NULL to READY
+[2026-02-06 15:59:16.025] [debug] [bus_callback] tee_rtsp_elem0 state changed from NULL to READY
+[2026-02-06 15:59:16.025] [debug] [bus_callback] src_elem0 state changed from NULL to READY
+[2026-02-06 15:59:16.025] [debug] [bus_callback] src_sub_bin0 state changed from NULL to READY
+[2026-02-06 15:59:16.025] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to PAUSED
+[2026-02-06 15:59:16.025] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to PAUSED
+[2026-02-06 15:59:16.025] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to PAUSED
+[2026-02-06 15:59:16.025] [debug] [bus_callback] src_que0 state changed from READY to PAUSED
+[2026-02-06 15:59:16.025] [debug] [bus_callback] typefind state changed from READY to PAUSED
+[2026-02-06 15:59:16.025] [debug] [bus_callback] dec_que0 state changed from READY to PAUSED
+[2026-02-06 15:59:16.025] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to PAUSED
+[2026-02-06 15:59:16.025] [debug] [bus_callback] src_elem0 state changed from READY to PAUSED
+[2026-02-06 15:59:16.025] [debug] [bus_callback] src_sub_bin0 state changed from READY to PAUSED
+[2026-02-06 15:59:16.025] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to PLAYING
+[2026-02-06 15:59:16.025] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:59:16.025] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:59:16.025] [debug] [bus_callback] src_que0 state changed from PAUSED to PLAYING
+[2026-02-06 15:59:16.025] [debug] [bus_callback] dec_que0 state changed from PAUSED to PLAYING
+[2026-02-06 15:59:16.025] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:59:16.025] [debug] [bus_callback] src_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 15:59:16.025] [error] [bus_callback] ERROR from src_elem0: Could not open resource for reading and writing.
+[2026-02-06 15:59:16.025] [debug] [bus_callback] Debug info: ../gst/rtsp/gstrtspsrc.c(8130): gst_rtspsrc_retrieve_sdp (): /GstPipeline:va-pipeline_0/GstBin:multi_src_bin/GstBin:src_sub_bin0/GstRTSPSrc:src_elem0:
+Failed to connect. (Generic error)
+[2026-02-06 15:59:16.025] [info] [bus_callback] Source 0 Disconnect
+[2026-02-06 15:59:17.024] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:18.024] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:19.025] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:20.026] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:20.956] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:59:21.027] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:22.028] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:23.029] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:24.029] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:25.030] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:25.956] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:59:26.030] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:27.031] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:28.031] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:29.031] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:30.032] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:30.957] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:59:31.033] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:32.033] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:33.034] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:34.035] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:35.035] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:35.957] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:59:36.036] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:37.036] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:38.036] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:39.036] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:40.037] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:40.958] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:59:41.038] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:42.039] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:43.040] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:44.041] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:45.042] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:45.958] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:59:46.043] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:47.043] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:48.044] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:49.045] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:50.046] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:50.959] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:59:51.047] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:52.047] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:53.048] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:54.048] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:55.049] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:55.959] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 15:59:56.049] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:57.050] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:58.051] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 15:59:59.052] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:00.053] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:00.959] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:00:01.054] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:02.055] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:03.056] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:04.057] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:05.058] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:05.960] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:00:06.059] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:07.059] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:08.060] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:09.061] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:10.062] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:10.960] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:00:11.063] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:12.064] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:13.065] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:14.065] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:15.065] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:15.960] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:00:16.066] [info] [reset_source_pipeline] Resetting source 0
+[2026-02-06 16:00:16.067] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:16.067] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PLAYING to PAUSED
+[2026-02-06 16:00:16.067] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] nvvidconv_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:00:16.067] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:00:16.067] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] src_que0 state changed from PLAYING to PAUSED
+[2026-02-06 16:00:16.067] [debug] [bus_callback] src_que0 state changed from PAUSED to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] typefind state changed from PAUSED to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] decodebin_elem0 state changed from READY to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] dec_que0 state changed from PLAYING to PAUSED
+[2026-02-06 16:00:16.067] [debug] [bus_callback] dec_que0 state changed from PAUSED to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] tee_rtsp_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:00:16.067] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] src_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:00:16.067] [debug] [bus_callback] src_elem0 state changed from PAUSED to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] src_sub_bin0 state changed from PAUSED to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to NULL
+[2026-02-06 16:00:16.067] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to NULL
+[2026-02-06 16:00:16.067] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to NULL
+[2026-02-06 16:00:16.067] [debug] [bus_callback] src_que0 state changed from READY to NULL
+[2026-02-06 16:00:16.067] [debug] [bus_callback] typefind state changed from READY to NULL
+[2026-02-06 16:00:16.067] [debug] [bus_callback] decodebin_elem0 state changed from READY to NULL
+[2026-02-06 16:00:16.067] [debug] [bus_callback] dec_que0 state changed from READY to NULL
+[2026-02-06 16:00:16.067] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to NULL
+[2026-02-06 16:00:16.067] [debug] [bus_callback] src_elem0 state changed from READY to NULL
+[2026-02-06 16:00:16.067] [debug] [bus_callback] src_sub_bin0 state changed from READY to NULL
+[2026-02-06 16:00:16.067] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from NULL to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] nvvidconv_elem0 state changed from NULL to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from NULL to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] src_que0 state changed from NULL to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] typefind state changed from NULL to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] decodebin_elem0 state changed from NULL to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] dec_que0 state changed from NULL to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] tee_rtsp_elem0 state changed from NULL to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] src_elem0 state changed from NULL to READY
+[2026-02-06 16:00:16.067] [debug] [bus_callback] src_sub_bin0 state changed from NULL to READY
+[2026-02-06 16:00:16.068] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to PAUSED
+[2026-02-06 16:00:16.068] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to PAUSED
+[2026-02-06 16:00:16.068] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to PAUSED
+[2026-02-06 16:00:16.068] [debug] [bus_callback] src_que0 state changed from READY to PAUSED
+[2026-02-06 16:00:16.068] [debug] [bus_callback] typefind state changed from READY to PAUSED
+[2026-02-06 16:00:16.068] [debug] [bus_callback] dec_que0 state changed from READY to PAUSED
+[2026-02-06 16:00:16.068] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to PAUSED
+[2026-02-06 16:00:16.068] [debug] [bus_callback] src_elem0 state changed from READY to PAUSED
+[2026-02-06 16:00:16.068] [debug] [bus_callback] src_sub_bin0 state changed from READY to PAUSED
+[2026-02-06 16:00:16.068] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to PLAYING
+[2026-02-06 16:00:16.068] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:00:16.068] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:00:16.068] [debug] [bus_callback] src_que0 state changed from PAUSED to PLAYING
+[2026-02-06 16:00:16.068] [debug] [bus_callback] dec_que0 state changed from PAUSED to PLAYING
+[2026-02-06 16:00:16.068] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:00:16.068] [debug] [bus_callback] src_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:00:16.068] [error] [bus_callback] ERROR from src_elem0: Could not open resource for reading and writing.
+[2026-02-06 16:00:16.068] [debug] [bus_callback] Debug info: ../gst/rtsp/gstrtspsrc.c(8130): gst_rtspsrc_retrieve_sdp (): /GstPipeline:va-pipeline_0/GstBin:multi_src_bin/GstBin:src_sub_bin0/GstRTSPSrc:src_elem0:
+Failed to connect. (Generic error)
+[2026-02-06 16:00:16.068] [info] [bus_callback] Source 0 Disconnect
+[2026-02-06 16:00:17.066] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:18.067] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:19.068] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:20.069] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:20.961] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:00:21.070] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:22.070] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:23.070] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:24.070] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:25.070] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:25.962] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:00:26.071] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:27.071] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:28.071] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:29.071] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:30.072] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:30.962] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:00:31.072] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:32.073] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:33.074] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:34.075] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:35.076] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:35.963] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:00:36.076] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:37.077] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:38.077] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:39.078] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:40.078] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:40.964] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:00:41.079] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:42.079] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:43.080] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:44.080] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:45.081] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:45.964] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:00:46.082] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:47.082] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:48.083] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:49.084] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:50.085] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:50.964] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:00:51.086] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:52.086] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:53.087] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:54.088] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:55.089] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:55.964] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:00:56.089] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:57.089] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:58.090] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:00:59.091] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:00.092] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:00.965] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:01:01.092] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:02.092] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:03.093] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:04.094] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:05.094] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:05.965] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:01:06.095] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:07.096] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:08.097] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:09.097] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:10.098] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:10.965] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:01:11.099] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:12.099] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:13.099] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:14.100] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:15.101] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:15.966] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:01:16.103] [info] [reset_source_pipeline] Resetting source 0
+[2026-02-06 16:01:16.103] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:16.103] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PLAYING to PAUSED
+[2026-02-06 16:01:16.103] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to READY
+[2026-02-06 16:01:16.103] [debug] [bus_callback] nvvidconv_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:01:16.103] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to READY
+[2026-02-06 16:01:16.103] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:01:16.103] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to READY
+[2026-02-06 16:01:16.103] [debug] [bus_callback] src_que0 state changed from PLAYING to PAUSED
+[2026-02-06 16:01:16.103] [debug] [bus_callback] src_que0 state changed from PAUSED to READY
+[2026-02-06 16:01:16.103] [debug] [bus_callback] typefind state changed from PAUSED to READY
+[2026-02-06 16:01:16.103] [debug] [bus_callback] decodebin_elem0 state changed from READY to READY
+[2026-02-06 16:01:16.103] [debug] [bus_callback] dec_que0 state changed from PLAYING to PAUSED
+[2026-02-06 16:01:16.103] [debug] [bus_callback] dec_que0 state changed from PAUSED to READY
+[2026-02-06 16:01:16.103] [debug] [bus_callback] tee_rtsp_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:01:16.103] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to READY
+[2026-02-06 16:01:16.103] [debug] [bus_callback] src_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:01:16.103] [debug] [bus_callback] src_elem0 state changed from PAUSED to READY
+[2026-02-06 16:01:16.103] [debug] [bus_callback] src_sub_bin0 state changed from PAUSED to READY
+[2026-02-06 16:01:16.103] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to NULL
+[2026-02-06 16:01:16.103] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to NULL
+[2026-02-06 16:01:16.103] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to NULL
+[2026-02-06 16:01:16.103] [debug] [bus_callback] src_que0 state changed from READY to NULL
+[2026-02-06 16:01:16.103] [debug] [bus_callback] typefind state changed from READY to NULL
+[2026-02-06 16:01:16.104] [debug] [bus_callback] decodebin_elem0 state changed from READY to NULL
+[2026-02-06 16:01:16.104] [debug] [bus_callback] dec_que0 state changed from READY to NULL
+[2026-02-06 16:01:16.104] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to NULL
+[2026-02-06 16:01:16.104] [debug] [bus_callback] src_elem0 state changed from READY to NULL
+[2026-02-06 16:01:16.104] [debug] [bus_callback] src_sub_bin0 state changed from READY to NULL
+[2026-02-06 16:01:16.104] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from NULL to READY
+[2026-02-06 16:01:16.104] [debug] [bus_callback] nvvidconv_elem0 state changed from NULL to READY
+[2026-02-06 16:01:16.104] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from NULL to READY
+[2026-02-06 16:01:16.104] [debug] [bus_callback] src_que0 state changed from NULL to READY
+[2026-02-06 16:01:16.104] [debug] [bus_callback] typefind state changed from NULL to READY
+[2026-02-06 16:01:16.104] [debug] [bus_callback] decodebin_elem0 state changed from NULL to READY
+[2026-02-06 16:01:16.104] [debug] [bus_callback] dec_que0 state changed from NULL to READY
+[2026-02-06 16:01:16.104] [debug] [bus_callback] tee_rtsp_elem0 state changed from NULL to READY
+[2026-02-06 16:01:16.104] [debug] [bus_callback] src_elem0 state changed from NULL to READY
+[2026-02-06 16:01:16.104] [debug] [bus_callback] src_sub_bin0 state changed from NULL to READY
+[2026-02-06 16:01:16.104] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to PAUSED
+[2026-02-06 16:01:16.104] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to PAUSED
+[2026-02-06 16:01:16.104] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to PAUSED
+[2026-02-06 16:01:16.104] [debug] [bus_callback] src_que0 state changed from READY to PAUSED
+[2026-02-06 16:01:16.104] [debug] [bus_callback] typefind state changed from READY to PAUSED
+[2026-02-06 16:01:16.104] [debug] [bus_callback] dec_que0 state changed from READY to PAUSED
+[2026-02-06 16:01:16.104] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to PAUSED
+[2026-02-06 16:01:16.104] [debug] [bus_callback] src_elem0 state changed from READY to PAUSED
+[2026-02-06 16:01:16.104] [debug] [bus_callback] src_sub_bin0 state changed from READY to PAUSED
+[2026-02-06 16:01:16.104] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to PLAYING
+[2026-02-06 16:01:16.104] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:01:16.104] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:01:16.104] [debug] [bus_callback] src_que0 state changed from PAUSED to PLAYING
+[2026-02-06 16:01:16.104] [debug] [bus_callback] dec_que0 state changed from PAUSED to PLAYING
+[2026-02-06 16:01:16.104] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:01:16.104] [debug] [bus_callback] src_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:01:16.104] [error] [bus_callback] ERROR from src_elem0: Could not open resource for reading and writing.
+[2026-02-06 16:01:16.104] [debug] [bus_callback] Debug info: ../gst/rtsp/gstrtspsrc.c(8130): gst_rtspsrc_retrieve_sdp (): /GstPipeline:va-pipeline_0/GstBin:multi_src_bin/GstBin:src_sub_bin0/GstRTSPSrc:src_elem0:
+Failed to connect. (Generic error)
+[2026-02-06 16:01:16.104] [info] [bus_callback] Source 0 Disconnect
+[2026-02-06 16:01:17.103] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:18.103] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:19.103] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:20.103] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:20.966] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:01:21.104] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:22.105] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:23.105] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:24.105] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:25.105] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:25.967] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:01:26.106] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:27.106] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:28.106] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:29.108] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:30.109] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:30.967] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:01:31.110] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:32.111] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:33.112] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:34.112] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:35.113] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:35.967] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:01:36.114] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:37.114] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:38.114] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:39.115] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:40.115] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:40.968] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:01:41.116] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:42.116] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:43.116] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:44.116] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:45.117] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:45.968] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:01:46.118] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:47.119] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:48.119] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:49.119] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:50.120] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:50.968] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:01:51.121] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:52.121] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:53.122] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:54.123] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:55.124] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:55.968] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:01:56.124] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:57.124] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:58.124] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:01:59.124] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:00.125] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:00.969] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:02:01.126] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:02.126] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:03.126] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:04.126] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:05.126] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:05.969] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:02:06.127] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:07.128] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:08.128] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:09.128] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:10.129] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:10.969] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:02:11.130] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:12.131] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:13.132] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:14.132] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:15.132] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:15.970] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:02:16.134] [info] [reset_source_pipeline] Resetting source 0
+[2026-02-06 16:02:16.134] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:16.134] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PLAYING to PAUSED
+[2026-02-06 16:02:16.134] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to READY
+[2026-02-06 16:02:16.134] [debug] [bus_callback] nvvidconv_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:02:16.134] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to READY
+[2026-02-06 16:02:16.134] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:02:16.134] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to READY
+[2026-02-06 16:02:16.134] [debug] [bus_callback] src_que0 state changed from PLAYING to PAUSED
+[2026-02-06 16:02:16.134] [debug] [bus_callback] src_que0 state changed from PAUSED to READY
+[2026-02-06 16:02:16.134] [debug] [bus_callback] typefind state changed from PAUSED to READY
+[2026-02-06 16:02:16.134] [debug] [bus_callback] decodebin_elem0 state changed from READY to READY
+[2026-02-06 16:02:16.134] [debug] [bus_callback] dec_que0 state changed from PLAYING to PAUSED
+[2026-02-06 16:02:16.134] [debug] [bus_callback] dec_que0 state changed from PAUSED to READY
+[2026-02-06 16:02:16.134] [debug] [bus_callback] tee_rtsp_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:02:16.134] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to READY
+[2026-02-06 16:02:16.134] [debug] [bus_callback] src_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:02:16.134] [debug] [bus_callback] src_elem0 state changed from PAUSED to READY
+[2026-02-06 16:02:16.134] [debug] [bus_callback] src_sub_bin0 state changed from PAUSED to READY
+[2026-02-06 16:02:16.134] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to NULL
+[2026-02-06 16:02:16.134] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to NULL
+[2026-02-06 16:02:16.134] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to NULL
+[2026-02-06 16:02:16.134] [debug] [bus_callback] src_que0 state changed from READY to NULL
+[2026-02-06 16:02:16.135] [debug] [bus_callback] typefind state changed from READY to NULL
+[2026-02-06 16:02:16.135] [debug] [bus_callback] decodebin_elem0 state changed from READY to NULL
+[2026-02-06 16:02:16.135] [debug] [bus_callback] dec_que0 state changed from READY to NULL
+[2026-02-06 16:02:16.135] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to NULL
+[2026-02-06 16:02:16.135] [debug] [bus_callback] src_elem0 state changed from READY to NULL
+[2026-02-06 16:02:16.135] [debug] [bus_callback] src_sub_bin0 state changed from READY to NULL
+[2026-02-06 16:02:16.135] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from NULL to READY
+[2026-02-06 16:02:16.135] [debug] [bus_callback] nvvidconv_elem0 state changed from NULL to READY
+[2026-02-06 16:02:16.135] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from NULL to READY
+[2026-02-06 16:02:16.135] [debug] [bus_callback] src_que0 state changed from NULL to READY
+[2026-02-06 16:02:16.135] [debug] [bus_callback] typefind state changed from NULL to READY
+[2026-02-06 16:02:16.135] [debug] [bus_callback] decodebin_elem0 state changed from NULL to READY
+[2026-02-06 16:02:16.135] [debug] [bus_callback] dec_que0 state changed from NULL to READY
+[2026-02-06 16:02:16.135] [debug] [bus_callback] tee_rtsp_elem0 state changed from NULL to READY
+[2026-02-06 16:02:16.135] [debug] [bus_callback] src_elem0 state changed from NULL to READY
+[2026-02-06 16:02:16.135] [debug] [bus_callback] src_sub_bin0 state changed from NULL to READY
+[2026-02-06 16:02:16.135] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to PAUSED
+[2026-02-06 16:02:16.135] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to PAUSED
+[2026-02-06 16:02:16.135] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to PAUSED
+[2026-02-06 16:02:16.135] [debug] [bus_callback] src_que0 state changed from READY to PAUSED
+[2026-02-06 16:02:16.135] [debug] [bus_callback] typefind state changed from READY to PAUSED
+[2026-02-06 16:02:16.135] [debug] [bus_callback] dec_que0 state changed from READY to PAUSED
+[2026-02-06 16:02:16.135] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to PAUSED
+[2026-02-06 16:02:16.135] [debug] [bus_callback] src_elem0 state changed from READY to PAUSED
+[2026-02-06 16:02:16.135] [debug] [bus_callback] src_sub_bin0 state changed from READY to PAUSED
+[2026-02-06 16:02:16.135] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to PLAYING
+[2026-02-06 16:02:16.135] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:02:16.135] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:02:16.135] [debug] [bus_callback] src_que0 state changed from PAUSED to PLAYING
+[2026-02-06 16:02:16.135] [debug] [bus_callback] dec_que0 state changed from PAUSED to PLAYING
+[2026-02-06 16:02:16.135] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:02:16.135] [debug] [bus_callback] src_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:02:16.135] [error] [bus_callback] ERROR from src_elem0: Could not open resource for reading and writing.
+[2026-02-06 16:02:16.135] [debug] [bus_callback] Debug info: ../gst/rtsp/gstrtspsrc.c(8130): gst_rtspsrc_retrieve_sdp (): /GstPipeline:va-pipeline_0/GstBin:multi_src_bin/GstBin:src_sub_bin0/GstRTSPSrc:src_elem0:
+Failed to connect. (Generic error)
+[2026-02-06 16:02:16.135] [info] [bus_callback] Source 0 Disconnect
+[2026-02-06 16:02:17.134] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:18.134] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:19.134] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:20.134] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:20.970] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:02:21.134] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:22.134] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:23.134] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:24.135] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:25.136] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:25.970] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:02:26.137] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:27.138] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:28.138] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:29.138] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:30.139] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:30.971] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:02:31.140] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:32.140] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:33.141] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:34.141] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:35.142] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:35.971] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:02:36.143] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:37.144] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:38.145] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:39.146] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:40.147] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:40.972] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:02:41.148] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:42.149] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:43.149] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:44.149] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:45.150] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:45.972] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:02:46.151] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:47.151] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:48.152] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:49.153] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:50.153] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:50.973] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:02:51.154] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:52.155] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:53.156] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:54.157] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:55.158] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:55.974] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:02:56.158] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:57.158] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:58.159] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:02:59.159] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:00.160] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:00.974] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:03:01.161] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:02.161] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:03.162] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:04.163] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:05.164] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:05.975] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:03:06.165] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:07.165] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:08.165] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:09.166] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:10.167] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:10.975] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:03:11.168] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:12.169] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:13.170] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:14.171] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:15.171] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:15.975] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:03:16.172] [info] [reset_source_pipeline] Resetting source 0
+[2026-02-06 16:03:16.172] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:16.172] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PLAYING to PAUSED
+[2026-02-06 16:03:16.172] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to READY
+[2026-02-06 16:03:16.172] [debug] [bus_callback] nvvidconv_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:03:16.172] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to READY
+[2026-02-06 16:03:16.172] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:03:16.172] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to READY
+[2026-02-06 16:03:16.172] [debug] [bus_callback] src_que0 state changed from PLAYING to PAUSED
+[2026-02-06 16:03:16.172] [debug] [bus_callback] src_que0 state changed from PAUSED to READY
+[2026-02-06 16:03:16.172] [debug] [bus_callback] typefind state changed from PAUSED to READY
+[2026-02-06 16:03:16.172] [debug] [bus_callback] decodebin_elem0 state changed from READY to READY
+[2026-02-06 16:03:16.172] [debug] [bus_callback] dec_que0 state changed from PLAYING to PAUSED
+[2026-02-06 16:03:16.172] [debug] [bus_callback] dec_que0 state changed from PAUSED to READY
+[2026-02-06 16:03:16.172] [debug] [bus_callback] tee_rtsp_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:03:16.172] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to READY
+[2026-02-06 16:03:16.172] [debug] [bus_callback] src_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:03:16.172] [debug] [bus_callback] src_elem0 state changed from PAUSED to READY
+[2026-02-06 16:03:16.172] [debug] [bus_callback] src_sub_bin0 state changed from PAUSED to READY
+[2026-02-06 16:03:16.172] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to NULL
+[2026-02-06 16:03:16.172] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to NULL
+[2026-02-06 16:03:16.172] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to NULL
+[2026-02-06 16:03:16.172] [debug] [bus_callback] src_que0 state changed from READY to NULL
+[2026-02-06 16:03:16.172] [debug] [bus_callback] typefind state changed from READY to NULL
+[2026-02-06 16:03:16.172] [debug] [bus_callback] decodebin_elem0 state changed from READY to NULL
+[2026-02-06 16:03:16.172] [debug] [bus_callback] dec_que0 state changed from READY to NULL
+[2026-02-06 16:03:16.172] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to NULL
+[2026-02-06 16:03:16.173] [debug] [bus_callback] src_elem0 state changed from READY to NULL
+[2026-02-06 16:03:16.173] [debug] [bus_callback] src_sub_bin0 state changed from READY to NULL
+[2026-02-06 16:03:16.173] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from NULL to READY
+[2026-02-06 16:03:16.173] [debug] [bus_callback] nvvidconv_elem0 state changed from NULL to READY
+[2026-02-06 16:03:16.173] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from NULL to READY
+[2026-02-06 16:03:16.173] [debug] [bus_callback] src_que0 state changed from NULL to READY
+[2026-02-06 16:03:16.173] [debug] [bus_callback] typefind state changed from NULL to READY
+[2026-02-06 16:03:16.173] [debug] [bus_callback] decodebin_elem0 state changed from NULL to READY
+[2026-02-06 16:03:16.173] [debug] [bus_callback] dec_que0 state changed from NULL to READY
+[2026-02-06 16:03:16.173] [debug] [bus_callback] tee_rtsp_elem0 state changed from NULL to READY
+[2026-02-06 16:03:16.173] [debug] [bus_callback] src_elem0 state changed from NULL to READY
+[2026-02-06 16:03:16.173] [debug] [bus_callback] src_sub_bin0 state changed from NULL to READY
+[2026-02-06 16:03:16.173] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to PAUSED
+[2026-02-06 16:03:16.173] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to PAUSED
+[2026-02-06 16:03:16.173] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to PAUSED
+[2026-02-06 16:03:16.173] [debug] [bus_callback] src_que0 state changed from READY to PAUSED
+[2026-02-06 16:03:16.173] [debug] [bus_callback] typefind state changed from READY to PAUSED
+[2026-02-06 16:03:16.173] [debug] [bus_callback] dec_que0 state changed from READY to PAUSED
+[2026-02-06 16:03:16.173] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to PAUSED
+[2026-02-06 16:03:16.173] [debug] [bus_callback] src_elem0 state changed from READY to PAUSED
+[2026-02-06 16:03:16.173] [debug] [bus_callback] src_sub_bin0 state changed from READY to PAUSED
+[2026-02-06 16:03:16.173] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to PLAYING
+[2026-02-06 16:03:16.173] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:03:16.173] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:03:16.173] [debug] [bus_callback] src_que0 state changed from PAUSED to PLAYING
+[2026-02-06 16:03:16.173] [debug] [bus_callback] dec_que0 state changed from PAUSED to PLAYING
+[2026-02-06 16:03:16.173] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:03:16.173] [debug] [bus_callback] src_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:03:16.173] [error] [bus_callback] ERROR from src_elem0: Could not open resource for reading and writing.
+[2026-02-06 16:03:16.173] [debug] [bus_callback] Debug info: ../gst/rtsp/gstrtspsrc.c(8130): gst_rtspsrc_retrieve_sdp (): /GstPipeline:va-pipeline_0/GstBin:multi_src_bin/GstBin:src_sub_bin0/GstRTSPSrc:src_elem0:
+Failed to connect. (Generic error)
+[2026-02-06 16:03:16.173] [info] [bus_callback] Source 0 Disconnect
+[2026-02-06 16:03:17.172] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:18.172] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:19.172] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:20.173] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:20.976] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:03:21.174] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:22.175] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:23.175] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:24.175] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:25.176] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:25.977] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:03:26.177] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:27.178] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:28.179] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:29.180] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:30.180] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:30.977] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:03:31.182] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:32.183] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:33.184] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:34.185] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:35.185] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:35.977] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:03:36.186] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:37.186] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:38.186] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:39.186] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:40.187] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:40.977] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:03:41.188] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:42.189] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:43.190] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:44.191] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:45.192] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:45.978] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:03:46.193] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:47.193] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:48.193] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:49.193] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:50.194] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:50.978] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:03:51.195] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:52.196] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:53.197] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:54.198] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:55.199] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:55.979] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:03:56.199] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:57.200] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:58.200] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:03:59.201] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:00.202] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:00.979] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:04:01.203] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:02.204] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:03.204] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:04.205] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:05.206] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:05.980] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:04:06.207] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:07.207] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:08.207] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:09.208] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:10.209] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:10.980] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:04:11.209] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:12.210] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:13.211] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:14.212] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:15.212] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:15.981] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:04:16.214] [info] [reset_source_pipeline] Resetting source 0
+[2026-02-06 16:04:16.214] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:16.214] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PLAYING to PAUSED
+[2026-02-06 16:04:16.214] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to READY
+[2026-02-06 16:04:16.214] [debug] [bus_callback] nvvidconv_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:04:16.214] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to READY
+[2026-02-06 16:04:16.214] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:04:16.214] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to READY
+[2026-02-06 16:04:16.214] [debug] [bus_callback] src_que0 state changed from PLAYING to PAUSED
+[2026-02-06 16:04:16.214] [debug] [bus_callback] src_que0 state changed from PAUSED to READY
+[2026-02-06 16:04:16.214] [debug] [bus_callback] typefind state changed from PAUSED to READY
+[2026-02-06 16:04:16.214] [debug] [bus_callback] decodebin_elem0 state changed from READY to READY
+[2026-02-06 16:04:16.214] [debug] [bus_callback] dec_que0 state changed from PLAYING to PAUSED
+[2026-02-06 16:04:16.214] [debug] [bus_callback] dec_que0 state changed from PAUSED to READY
+[2026-02-06 16:04:16.214] [debug] [bus_callback] tee_rtsp_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:04:16.214] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to READY
+[2026-02-06 16:04:16.214] [debug] [bus_callback] src_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:04:16.214] [debug] [bus_callback] src_elem0 state changed from PAUSED to READY
+[2026-02-06 16:04:16.214] [debug] [bus_callback] src_sub_bin0 state changed from PAUSED to READY
+[2026-02-06 16:04:16.214] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to NULL
+[2026-02-06 16:04:16.214] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to NULL
+[2026-02-06 16:04:16.214] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to NULL
+[2026-02-06 16:04:16.215] [debug] [bus_callback] src_que0 state changed from READY to NULL
+[2026-02-06 16:04:16.215] [debug] [bus_callback] typefind state changed from READY to NULL
+[2026-02-06 16:04:16.215] [debug] [bus_callback] decodebin_elem0 state changed from READY to NULL
+[2026-02-06 16:04:16.215] [debug] [bus_callback] dec_que0 state changed from READY to NULL
+[2026-02-06 16:04:16.215] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to NULL
+[2026-02-06 16:04:16.215] [debug] [bus_callback] src_elem0 state changed from READY to NULL
+[2026-02-06 16:04:16.215] [debug] [bus_callback] src_sub_bin0 state changed from READY to NULL
+[2026-02-06 16:04:16.215] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from NULL to READY
+[2026-02-06 16:04:16.215] [debug] [bus_callback] nvvidconv_elem0 state changed from NULL to READY
+[2026-02-06 16:04:16.215] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from NULL to READY
+[2026-02-06 16:04:16.215] [debug] [bus_callback] src_que0 state changed from NULL to READY
+[2026-02-06 16:04:16.215] [debug] [bus_callback] typefind state changed from NULL to READY
+[2026-02-06 16:04:16.215] [debug] [bus_callback] decodebin_elem0 state changed from NULL to READY
+[2026-02-06 16:04:16.215] [debug] [bus_callback] dec_que0 state changed from NULL to READY
+[2026-02-06 16:04:16.215] [debug] [bus_callback] tee_rtsp_elem0 state changed from NULL to READY
+[2026-02-06 16:04:16.215] [debug] [bus_callback] src_elem0 state changed from NULL to READY
+[2026-02-06 16:04:16.215] [debug] [bus_callback] src_sub_bin0 state changed from NULL to READY
+[2026-02-06 16:04:16.215] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to PAUSED
+[2026-02-06 16:04:16.215] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to PAUSED
+[2026-02-06 16:04:16.215] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to PAUSED
+[2026-02-06 16:04:16.215] [debug] [bus_callback] src_que0 state changed from READY to PAUSED
+[2026-02-06 16:04:16.215] [debug] [bus_callback] typefind state changed from READY to PAUSED
+[2026-02-06 16:04:16.215] [debug] [bus_callback] dec_que0 state changed from READY to PAUSED
+[2026-02-06 16:04:16.215] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to PAUSED
+[2026-02-06 16:04:16.215] [debug] [bus_callback] src_elem0 state changed from READY to PAUSED
+[2026-02-06 16:04:16.215] [debug] [bus_callback] src_sub_bin0 state changed from READY to PAUSED
+[2026-02-06 16:04:16.215] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to PLAYING
+[2026-02-06 16:04:16.215] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:04:16.215] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:04:16.215] [debug] [bus_callback] src_que0 state changed from PAUSED to PLAYING
+[2026-02-06 16:04:16.215] [debug] [bus_callback] dec_que0 state changed from PAUSED to PLAYING
+[2026-02-06 16:04:16.215] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:04:16.215] [debug] [bus_callback] src_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:04:16.215] [error] [bus_callback] ERROR from src_elem0: Could not open resource for reading and writing.
+[2026-02-06 16:04:16.215] [debug] [bus_callback] Debug info: ../gst/rtsp/gstrtspsrc.c(8130): gst_rtspsrc_retrieve_sdp (): /GstPipeline:va-pipeline_0/GstBin:multi_src_bin/GstBin:src_sub_bin0/GstRTSPSrc:src_elem0:
+Failed to connect. (Generic error)
+[2026-02-06 16:04:16.215] [info] [bus_callback] Source 0 Disconnect
+[2026-02-06 16:04:17.214] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:18.214] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:19.215] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:20.216] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:20.981] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:04:21.217] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:22.218] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:23.218] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:24.218] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:25.219] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:25.981] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:04:26.220] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:27.221] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:28.222] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:29.222] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:30.223] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:30.982] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:04:31.224] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:32.225] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:33.226] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:34.227] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:35.228] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:35.983] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:04:36.228] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:37.230] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:38.231] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:39.231] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:40.232] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:40.984] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:04:41.233] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:42.234] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:43.235] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:44.236] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:45.237] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:45.984] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:04:46.238] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:47.239] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:48.240] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:49.241] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:50.242] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:50.985] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:04:51.243] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:52.244] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:53.245] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:54.246] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:55.247] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:55.986] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:04:56.247] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:57.248] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:58.248] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:04:59.248] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:00.248] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:00.987] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:05:01.249] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:02.250] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:03.251] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:04.252] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:05.253] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:05.988] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:05:06.254] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:07.254] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:08.254] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:09.254] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:10.255] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:10.989] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:05:11.256] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:12.256] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:13.256] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:14.257] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:15.258] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:15.989] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:05:16.260] [info] [reset_source_pipeline] Resetting source 0
+[2026-02-06 16:05:16.260] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:16.260] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PLAYING to PAUSED
+[2026-02-06 16:05:16.260] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to READY
+[2026-02-06 16:05:16.260] [debug] [bus_callback] nvvidconv_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:05:16.260] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to READY
+[2026-02-06 16:05:16.260] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:05:16.260] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to READY
+[2026-02-06 16:05:16.260] [debug] [bus_callback] src_que0 state changed from PLAYING to PAUSED
+[2026-02-06 16:05:16.260] [debug] [bus_callback] src_que0 state changed from PAUSED to READY
+[2026-02-06 16:05:16.260] [debug] [bus_callback] typefind state changed from PAUSED to READY
+[2026-02-06 16:05:16.260] [debug] [bus_callback] decodebin_elem0 state changed from READY to READY
+[2026-02-06 16:05:16.260] [debug] [bus_callback] dec_que0 state changed from PLAYING to PAUSED
+[2026-02-06 16:05:16.261] [debug] [bus_callback] dec_que0 state changed from PAUSED to READY
+[2026-02-06 16:05:16.261] [debug] [bus_callback] tee_rtsp_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:05:16.261] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to READY
+[2026-02-06 16:05:16.261] [debug] [bus_callback] src_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:05:16.261] [debug] [bus_callback] src_elem0 state changed from PAUSED to READY
+[2026-02-06 16:05:16.261] [debug] [bus_callback] src_sub_bin0 state changed from PAUSED to READY
+[2026-02-06 16:05:16.261] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to NULL
+[2026-02-06 16:05:16.261] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to NULL
+[2026-02-06 16:05:16.261] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to NULL
+[2026-02-06 16:05:16.261] [debug] [bus_callback] src_que0 state changed from READY to NULL
+[2026-02-06 16:05:16.263] [debug] [bus_callback] typefind state changed from READY to NULL
+[2026-02-06 16:05:16.263] [debug] [bus_callback] decodebin_elem0 state changed from READY to NULL
+[2026-02-06 16:05:16.264] [debug] [bus_callback] dec_que0 state changed from READY to NULL
+[2026-02-06 16:05:16.264] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to NULL
+[2026-02-06 16:05:16.264] [debug] [bus_callback] src_elem0 state changed from READY to NULL
+[2026-02-06 16:05:16.264] [debug] [bus_callback] src_sub_bin0 state changed from READY to NULL
+[2026-02-06 16:05:16.264] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from NULL to READY
+[2026-02-06 16:05:16.264] [debug] [bus_callback] nvvidconv_elem0 state changed from NULL to READY
+[2026-02-06 16:05:16.264] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from NULL to READY
+[2026-02-06 16:05:16.264] [debug] [bus_callback] src_que0 state changed from NULL to READY
+[2026-02-06 16:05:16.264] [debug] [bus_callback] typefind state changed from NULL to READY
+[2026-02-06 16:05:16.264] [debug] [bus_callback] decodebin_elem0 state changed from NULL to READY
+[2026-02-06 16:05:16.264] [debug] [bus_callback] dec_que0 state changed from NULL to READY
+[2026-02-06 16:05:16.264] [debug] [bus_callback] tee_rtsp_elem0 state changed from NULL to READY
+[2026-02-06 16:05:16.264] [debug] [bus_callback] src_elem0 state changed from NULL to READY
+[2026-02-06 16:05:16.264] [debug] [bus_callback] src_sub_bin0 state changed from NULL to READY
+[2026-02-06 16:05:16.264] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to PAUSED
+[2026-02-06 16:05:16.264] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to PAUSED
+[2026-02-06 16:05:16.264] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to PAUSED
+[2026-02-06 16:05:16.264] [debug] [bus_callback] src_que0 state changed from READY to PAUSED
+[2026-02-06 16:05:16.264] [debug] [bus_callback] typefind state changed from READY to PAUSED
+[2026-02-06 16:05:16.264] [debug] [bus_callback] dec_que0 state changed from READY to PAUSED
+[2026-02-06 16:05:16.264] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to PAUSED
+[2026-02-06 16:05:16.264] [debug] [bus_callback] src_elem0 state changed from READY to PAUSED
+[2026-02-06 16:05:16.264] [debug] [bus_callback] src_sub_bin0 state changed from READY to PAUSED
+[2026-02-06 16:05:16.264] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to PLAYING
+[2026-02-06 16:05:16.264] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:05:16.264] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:05:16.264] [debug] [bus_callback] src_que0 state changed from PAUSED to PLAYING
+[2026-02-06 16:05:16.264] [debug] [bus_callback] dec_que0 state changed from PAUSED to PLAYING
+[2026-02-06 16:05:16.264] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:05:16.264] [debug] [bus_callback] src_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:05:16.264] [error] [bus_callback] ERROR from src_elem0: Could not open resource for reading and writing.
+[2026-02-06 16:05:16.264] [debug] [bus_callback] Debug info: ../gst/rtsp/gstrtspsrc.c(8130): gst_rtspsrc_retrieve_sdp (): /GstPipeline:va-pipeline_0/GstBin:multi_src_bin/GstBin:src_sub_bin0/GstRTSPSrc:src_elem0:
+Failed to connect. (Generic error)
+[2026-02-06 16:05:16.264] [info] [bus_callback] Source 0 Disconnect
+[2026-02-06 16:05:17.259] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:18.261] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:19.262] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:20.263] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:20.990] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:05:21.263] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:22.264] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:23.265] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:24.266] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:25.267] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:25.990] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:05:26.268] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:27.269] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:28.270] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:29.271] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:30.272] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:30.991] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:05:31.273] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:32.273] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:33.274] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:34.275] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:35.276] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:35.992] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:05:36.277] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:37.278] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:38.279] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:39.279] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:40.279] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:40.993] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:05:41.280] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:42.280] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:43.281] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:44.282] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:45.282] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:45.993] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:05:46.283] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:47.284] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:48.284] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:49.285] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:50.285] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:50.994] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:05:51.286] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:52.286] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:53.287] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:54.288] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:55.288] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:55.994] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:05:56.288] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:57.289] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:58.290] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:05:59.290] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:00.291] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:00.995] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:06:01.292] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:02.292] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:03.292] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:04.293] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:05.293] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:05.996] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:06:06.294] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:07.295] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:08.295] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:09.296] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:10.296] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:10.997] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:06:11.297] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:12.298] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:13.298] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:14.298] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:15.299] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:15.998] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:06:16.311] [info] [reset_source_pipeline] Resetting source 0
+[2026-02-06 16:06:16.312] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:16.312] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PLAYING to PAUSED
+[2026-02-06 16:06:16.312] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to READY
+[2026-02-06 16:06:16.312] [debug] [bus_callback] nvvidconv_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:06:16.312] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to READY
+[2026-02-06 16:06:16.312] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:06:16.312] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to READY
+[2026-02-06 16:06:16.312] [debug] [bus_callback] src_que0 state changed from PLAYING to PAUSED
+[2026-02-06 16:06:16.312] [debug] [bus_callback] src_que0 state changed from PAUSED to READY
+[2026-02-06 16:06:16.312] [debug] [bus_callback] typefind state changed from PAUSED to READY
+[2026-02-06 16:06:16.312] [debug] [bus_callback] decodebin_elem0 state changed from READY to READY
+[2026-02-06 16:06:16.312] [debug] [bus_callback] dec_que0 state changed from PLAYING to PAUSED
+[2026-02-06 16:06:16.312] [debug] [bus_callback] dec_que0 state changed from PAUSED to READY
+[2026-02-06 16:06:16.312] [debug] [bus_callback] tee_rtsp_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:06:16.312] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to READY
+[2026-02-06 16:06:16.312] [debug] [bus_callback] src_elem0 state changed from PLAYING to PAUSED
+[2026-02-06 16:06:16.312] [debug] [bus_callback] src_elem0 state changed from PAUSED to READY
+[2026-02-06 16:06:16.312] [debug] [bus_callback] src_sub_bin0 state changed from PAUSED to READY
+[2026-02-06 16:06:16.312] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to NULL
+[2026-02-06 16:06:16.312] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to NULL
+[2026-02-06 16:06:16.312] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to NULL
+[2026-02-06 16:06:16.312] [debug] [bus_callback] src_que0 state changed from READY to NULL
+[2026-02-06 16:06:16.313] [debug] [bus_callback] typefind state changed from READY to NULL
+[2026-02-06 16:06:16.313] [debug] [bus_callback] decodebin_elem0 state changed from READY to NULL
+[2026-02-06 16:06:16.313] [debug] [bus_callback] dec_que0 state changed from READY to NULL
+[2026-02-06 16:06:16.313] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to NULL
+[2026-02-06 16:06:16.313] [debug] [bus_callback] src_elem0 state changed from READY to NULL
+[2026-02-06 16:06:16.313] [debug] [bus_callback] src_sub_bin0 state changed from READY to NULL
+[2026-02-06 16:06:16.313] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from NULL to READY
+[2026-02-06 16:06:16.313] [debug] [bus_callback] nvvidconv_elem0 state changed from NULL to READY
+[2026-02-06 16:06:16.313] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from NULL to READY
+[2026-02-06 16:06:16.313] [debug] [bus_callback] src_que0 state changed from NULL to READY
+[2026-02-06 16:06:16.313] [debug] [bus_callback] typefind state changed from NULL to READY
+[2026-02-06 16:06:16.313] [debug] [bus_callback] decodebin_elem0 state changed from NULL to READY
+[2026-02-06 16:06:16.313] [debug] [bus_callback] dec_que0 state changed from NULL to READY
+[2026-02-06 16:06:16.313] [debug] [bus_callback] tee_rtsp_elem0 state changed from NULL to READY
+[2026-02-06 16:06:16.313] [debug] [bus_callback] src_elem0 state changed from NULL to READY
+[2026-02-06 16:06:16.313] [debug] [bus_callback] src_sub_bin0 state changed from NULL to READY
+[2026-02-06 16:06:16.313] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to PAUSED
+[2026-02-06 16:06:16.313] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to PAUSED
+[2026-02-06 16:06:16.313] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to PAUSED
+[2026-02-06 16:06:16.313] [debug] [bus_callback] src_que0 state changed from READY to PAUSED
+[2026-02-06 16:06:16.313] [debug] [bus_callback] typefind state changed from READY to PAUSED
+[2026-02-06 16:06:16.313] [debug] [bus_callback] dec_que0 state changed from READY to PAUSED
+[2026-02-06 16:06:16.313] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to PAUSED
+[2026-02-06 16:06:16.313] [debug] [bus_callback] src_elem0 state changed from READY to PAUSED
+[2026-02-06 16:06:16.313] [debug] [bus_callback] src_sub_bin0 state changed from READY to PAUSED
+[2026-02-06 16:06:16.313] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to PLAYING
+[2026-02-06 16:06:16.313] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:06:16.313] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:06:16.313] [debug] [bus_callback] src_que0 state changed from PAUSED to PLAYING
+[2026-02-06 16:06:16.313] [debug] [bus_callback] dec_que0 state changed from PAUSED to PLAYING
+[2026-02-06 16:06:16.313] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:06:16.313] [debug] [bus_callback] src_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:06:16.313] [error] [bus_callback] ERROR from src_elem0: Could not open resource for reading and writing.
+[2026-02-06 16:06:16.313] [debug] [bus_callback] Debug info: ../gst/rtsp/gstrtspsrc.c(8130): gst_rtspsrc_retrieve_sdp (): /GstPipeline:va-pipeline_0/GstBin:multi_src_bin/GstBin:src_sub_bin0/GstRTSPSrc:src_elem0:
+Failed to connect. (Generic error)
+[2026-02-06 16:06:16.313] [info] [bus_callback] Source 0 Disconnect
+[2026-02-06 16:06:17.300] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:18.301] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:19.302] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:20.302] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:20.999] [error] RTSP server rtsp://192.168.1.177:8554/cam1 is dead
+[2026-02-06 16:06:21.302] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:22.302] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:06:23.303] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:08:14.556] [info] __     ______ ____    ____  _____ ______     _______ ____       _    ____ ___ 
+[2026-02-06 16:08:14.556] [info] \ \   / / ___/ ___|  / ___|| ____|  _ \ \   / / ____|  _ \     / \  |  _ \_ _|
+[2026-02-06 16:08:14.556] [info]  \ \ / /\___ \___ \  \___ \|  _| | |_) \ \ / /|  _| | |_) |   / _ \ | |_) | | 
+[2026-02-06 16:08:14.556] [info]   \ V /  ___) |__) |  ___) | |___|  _ < \ V / | |___|  _ <   / ___ \|  __/| | 
+[2026-02-06 16:08:14.556] [info]    \_/  |____/____/  |____/|_____|_| \_\ \_/  |_____|_| \_\ /_/   \_\_|  |___|
+[2026-02-06 16:08:14.556] [info] +----------------------------------------------------------------------------+
+[2026-02-06 16:08:14.556] [info] | Copyright (c) 2022 Viettel High Technology Industries Corporation          |
+[2026-02-06 16:08:14.556] [info] |----------------------------------------------------------------------------|
+[2026-02-06 16:08:14.556] [info] | Service name                  |           VSS-video surveillance services  |
+[2026-02-06 16:08:14.556] [info] | Release                       |           2022-11-30                       |
+[2026-02-06 16:08:14.556] [info] | Service version               |           0.0.1                            |
+[2026-02-06 16:08:14.556] [info] | Deepstream version            |           7.1.0                            |
+[2026-02-06 16:08:14.556] [info] | TensorRT version              |           10.3.0                            |
+[2026-02-06 16:08:14.556] [info] | Device version                |           Orin                 |
+[2026-02-06 16:08:14.556] [info] +----------------------------------------------------------------------------+
+[2026-02-06 16:08:14.556] [info] [Server] Initializing...
+[2026-02-06 16:08:14.556] [info] [Server] Initialize successfully.
+[2026-02-06 16:08:14.581] [info] [Server] Server has been started at port: 9089
+[2026-02-06 16:08:14.584] [warning] [Create Pipeline] Loading backup config ...
+[2026-02-06 16:08:14.590] [info] [Source] Initializing...
+[2026-02-06 16:08:14.603] [debug] [create_rtsp_src_bin] Add rtspsrc_monitor_probe_func to GST_PAD_PROBE_TYPE_BUFFER
+[2026-02-06 16:08:14.609] [info] [DumpConfig] Backup config to backup/config.json successfully
+[2026-02-06 16:08:14.610] [info] [Primary Gie] Initialize face_detection module
+[2026-02-06 16:08:14.610] [debug] Check path: models/face_detection/1.0.0/face_detection.yaml >> valid: true
+[2026-02-06 16:08:14.935] [info] [Tracking] Initialize face_tracking module
+[2026-02-06 16:08:14.965] [info] [Create Pipeline] Create pipeline 95eecba2-ef89-4cd3-ab33-d3cbb8c427fd successfully...
+[2026-02-06 16:08:16.485] [info] [Pipeline] Set play state for pipeline
+[2026-02-06 16:08:16.485] [debug] [bus_callback] sink_sub_bin_sink1 state changed from NULL to READY
+[2026-02-06 16:08:16.485] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:08:16.485] [debug] [bus_callback] render_queue1 state changed from NULL to READY
+[2026-02-06 16:08:16.485] [debug] [bus_callback] sink_sub_bin1 state changed from NULL to READY
+[2026-02-06 16:08:16.485] [debug] [bus_callback] sink_bin_tee state changed from NULL to READY
+[2026-02-06 16:08:16.485] [debug] [bus_callback] sink_bin_queue state changed from NULL to READY
+[2026-02-06 16:08:16.485] [debug] [bus_callback] sink_bin_0 state changed from NULL to READY
+[2026-02-06 16:08:16.485] [debug] [bus_callback] nvosd0 state changed from NULL to READY
+[2026-02-06 16:08:16.485] [debug] [bus_callback] osd_conv_queue state changed from NULL to READY
+[2026-02-06 16:08:16.485] [debug] [bus_callback] osd_conv state changed from NULL to READY
+[2026-02-06 16:08:16.485] [debug] [bus_callback] osd_queue state changed from NULL to READY
+[2026-02-06 16:08:16.485] [debug] [bus_callback] osd_bin_0 state changed from NULL to READY
+[2026-02-06 16:08:16.485] [debug] [bus_callback] tiled_display_tiler state changed from NULL to READY
+[2026-02-06 16:08:16.485] [debug] [bus_callback] tiled_display_queue state changed from NULL to READY
+[2026-02-06 16:08:16.485] [debug] [bus_callback] tiled_display_bin_0 state changed from NULL to READY
+[2026-02-06 16:08:16.485] [debug] [bus_callback] tracking_tracker state changed from NULL to READY
+[2026-02-06 16:08:16.486] [debug] [bus_callback] tracking_bin state changed from NULL to READY
+[2026-02-06 16:08:16.486] [debug] [bus_callback] primary_gie state changed from NULL to READY
+[2026-02-06 16:08:16.486] [debug] [bus_callback] primary_gie_conv state changed from NULL to READY
+[2026-02-06 16:08:16.486] [debug] [bus_callback] primary_gie_queue state changed from NULL to READY
+[2026-02-06 16:08:16.486] [debug] [bus_callback] primary_gie_bin_0 state changed from NULL to READY
+[2026-02-06 16:08:16.486] [debug] [bus_callback] src_bin_muxer state changed from NULL to READY
+[2026-02-06 16:08:16.486] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from NULL to READY
+[2026-02-06 16:08:16.486] [debug] [bus_callback] nvvidconv_elem0 state changed from NULL to READY
+[2026-02-06 16:08:16.486] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from NULL to READY
+[2026-02-06 16:08:16.486] [debug] [bus_callback] src_que0 state changed from NULL to READY
+[2026-02-06 16:08:16.487] [debug] [bus_callback] typefind state changed from NULL to READY
+[2026-02-06 16:08:16.487] [debug] [bus_callback] decodebin_elem0 state changed from NULL to READY
+[2026-02-06 16:08:16.487] [debug] [bus_callback] dec_que0 state changed from NULL to READY
+[2026-02-06 16:08:16.487] [debug] [bus_callback] tee_rtsp_elem0 state changed from NULL to READY
+[2026-02-06 16:08:16.487] [debug] [bus_callback] src_elem0 state changed from NULL to READY
+[2026-02-06 16:08:16.487] [debug] [bus_callback] src_sub_bin0 state changed from NULL to READY
+[2026-02-06 16:08:16.487] [debug] [bus_callback] multi_src_bin state changed from NULL to READY
+[2026-02-06 16:08:16.487] [debug] [bus_callback] Pipeline state changed from NULL to READY
+[2026-02-06 16:08:16.487] [info] [bus_callback] Pipeline ready
+[2026-02-06 16:08:16.487] [debug] [bus_callback] sink_sub_bin_sink1 state changed from READY to PAUSED
+[2026-02-06 16:08:16.487] [debug] [bus_callback] render_queue1 state changed from READY to PAUSED
+[2026-02-06 16:08:16.487] [debug] [bus_callback] sink_sub_bin1 state changed from READY to PAUSED
+[2026-02-06 16:08:16.487] [debug] [bus_callback] sink_bin_tee state changed from READY to PAUSED
+[2026-02-06 16:08:16.487] [debug] [bus_callback] sink_bin_queue state changed from READY to PAUSED
+[2026-02-06 16:08:16.487] [debug] [bus_callback] sink_bin_0 state changed from READY to PAUSED
+[2026-02-06 16:08:16.487] [debug] [bus_callback] nvosd0 state changed from READY to PAUSED
+[2026-02-06 16:08:16.487] [debug] [bus_callback] osd_conv_queue state changed from READY to PAUSED
+[2026-02-06 16:08:16.487] [debug] [bus_callback] osd_conv state changed from READY to PAUSED
+[2026-02-06 16:08:16.487] [debug] [bus_callback] osd_queue state changed from READY to PAUSED
+[2026-02-06 16:08:16.487] [debug] [bus_callback] osd_bin_0 state changed from READY to PAUSED
+[2026-02-06 16:08:16.487] [debug] [bus_callback] tiled_display_tiler state changed from READY to PAUSED
+[2026-02-06 16:08:16.487] [debug] [bus_callback] tiled_display_queue state changed from READY to PAUSED
+[2026-02-06 16:08:16.487] [debug] [bus_callback] tiled_display_bin_0 state changed from READY to PAUSED
+[2026-02-06 16:08:16.487] [debug] [bus_callback] tracking_tracker state changed from READY to PAUSED
+[2026-02-06 16:08:16.487] [debug] [bus_callback] tracking_bin state changed from READY to PAUSED
+[2026-02-06 16:08:16.487] [error] [bus_callback] ERROR from primary_gie: Failed to create NvDsInferContext instance
+[2026-02-06 16:08:16.487] [debug] [bus_callback] Debug info: /dvs/git/dirty/git-master_linux/deepstream/sdk/src/gst-plugins/gst-nvinfer/gstnvinfer.cpp(914): gst_nvinfer_start (): /GstPipeline:va-pipeline_0/GstBin:primary_gie_bin_0/GstNvInfer:primary_gie:
+Config file path: models/face_detection/1.0.0/face_detection.txt, NvDsInfer Error: NVDSINFER_CUDA_ERROR
+[2026-02-06 16:08:16.487] [debug] [bus_callback] sink_sub_bin_sink1 state changed from PAUSED to READY
+[2026-02-06 16:08:16.487] [debug] [bus_callback][2026-02-06 16:24:21.113] [info] __     ______ ____    ____  _____ ______     _______ ____       _    ____ ___ 
+[2026-02-06 16:24:21.113] [info] \ \   / / ___/ ___|  / ___|| ____|  _ \ \   / / ____|  _ \     / \  |  _ \_ _|
+[2026-02-06 16:24:21.113] [info]  \ \ / /\___ \___ \  \___ \|  _| | |_) \ \ / /|  _| | |_) |   / _ \ | |_) | | 
+[2026-02-06 16:24:21.113] [info]   \ V /  ___) |__) |  ___) | |___|  _ < \ V / | |___|  _ <   / ___ \|  __/| | 
+[2026-02-06 16:24:21.113] [info]    \_/  |____/____/  |____/|_____|_| \_\ \_/  |_____|_| \_\ /_/   \_\_|  |___|
+[2026-02-06 16:24:21.113] [info] +----------------------------------------------------------------------------+
+[2026-02-06 16:24:21.113] [info] | Copyright (c) 2022 Viettel High Technology Industries Corporation          |
+[2026-02-06 16:24:21.113] [info] |----------------------------------------------------------------------------|
+[2026-02-06 16:24:21.113] [info] | Service name                  |           VSS-video surveillance services  |
+[2026-02-06 16:24:21.113] [info] | Release                       |           2022-11-30                       |
+[2026-02-06 16:24:21.113] [info] | Service version               |           0.0.1                            |
+[2026-02-06 16:24:21.113] [info] | Deepstream version            |           7.1.0                            |
+[2026-02-06 16:24:21.113] [info] | TensorRT version              |           10.3.0                            |
+[2026-02-06 16:24:21.113] [info] | Device version                |           Orin                 |
+[2026-02-06 16:24:21.113] [info] +----------------------------------------------------------------------------+
+[2026-02-06 16:24:21.113] [info] [Server] Initializing...
+[2026-02-06 16:24:21.113] [info] [Server] Initialize successfully.
+[2026-02-06 16:24:21.149] [info] [Server] Server has been started at port: 9089
+[2026-02-06 16:24:21.152] [warning] [Create Pipeline] Loading backup config ...
+[2026-02-06 16:24:21.157] [info] [Source] Initializing...
+[2026-02-06 16:24:21.186] [debug] [create_rtsp_src_bin] Add rtspsrc_monitor_probe_func to GST_PAD_PROBE_TYPE_BUFFER
+[2026-02-06 16:24:21.199] [info] [DumpConfig] Backup config to backup/config.json successfully
+[2026-02-06 16:24:21.200] [info] [Primary Gie] Initialize face_detection module
+[2026-02-06 16:24:21.200] [debug] Check path: models/face_detection/1.0.0/face_detection.yaml >> valid: true
+[2026-02-06 16:24:21.350] [info] [Tracking] Initialize face_tracking module
+[2026-02-06 16:24:21.368] [info] [Create Pipeline] Create pipeline 12c2d840-5a71-4a53-8de9-f0a2f57f6cf1 successfully...
+[2026-02-06 16:25:42.009] [info] [Pipeline] Set play state for pipeline
+[2026-02-06 16:25:42.010] [debug] [bus_callback] sink_sub_bin_sink1 state changed from NULL to READY
+[2026-02-06 16:25:42.010] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:25:42.010] [debug] [bus_callback] render_queue1 state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] sink_sub_bin1 state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] sink_bin_tee state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] sink_bin_queue state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] sink_bin_0 state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] nvosd0 state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] osd_conv_queue state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] osd_conv state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] osd_queue state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] osd_bin_0 state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] tiled_display_tiler state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] tiled_display_queue state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] tiled_display_bin_0 state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] tracking_tracker state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] tracking_bin state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] primary_gie state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] primary_gie_conv state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] primary_gie_queue state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] primary_gie_bin_0 state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] src_bin_muxer state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] nvvidconv_elem0 state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] src_que0 state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] typefind state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] decodebin_elem0 state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] dec_que0 state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] tee_rtsp_elem0 state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] src_elem0 state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] src_sub_bin0 state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] multi_src_bin state changed from NULL to READY
+[2026-02-06 16:25:42.010] [debug] [bus_callback] Pipeline state changed from NULL to READY
+[2026-02-06 16:25:42.010] [info] [bus_callback] Pipeline ready
+[2026-02-06 16:25:42.010] [debug] [bus_callback] sink_sub_bin_sink1 state changed from READY to PAUSED
+[2026-02-06 16:25:42.010] [debug] [bus_callback] render_queue1 state changed from READY to PAUSED
+[2026-02-06 16:25:42.010] [debug] [bus_callback] sink_sub_bin1 state changed from READY to PAUSED
+[2026-02-06 16:25:42.010] [debug] [bus_callback] sink_bin_tee state changed from READY to PAUSED
+[2026-02-06 16:25:42.010] [debug] [bus_callback] sink_bin_queue state changed from READY to PAUSED
+[2026-02-06 16:25:42.010] [debug] [bus_callback] sink_bin_0 state changed from READY to PAUSED
+[2026-02-06 16:25:42.010] [debug] [bus_callback] nvosd0 state changed from READY to PAUSED
+[2026-02-06 16:25:42.010] [debug] [bus_callback] osd_conv_queue state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] osd_conv state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] osd_queue state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] osd_bin_0 state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] tiled_display_tiler state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] tiled_display_queue state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] tiled_display_bin_0 state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] tracking_tracker state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] tracking_bin state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] primary_gie state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] primary_gie_conv state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] primary_gie_queue state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] primary_gie_bin_0 state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] src_bin_muxer state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] nvvidconv_elem0 state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] src_que0 state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] typefind state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] dec_que0 state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] tee_rtsp_elem0 state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] src_elem0 state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] src_sub_bin0 state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] multi_src_bin state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] Pipeline state changed from READY to PAUSED
+[2026-02-06 16:25:42.011] [debug] [bus_callback] sink_sub_bin_sink1 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] render_queue1 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] sink_sub_bin1 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] sink_bin_tee state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] sink_bin_queue state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] sink_bin_0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] nvosd0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] osd_conv_queue state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] osd_conv state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] osd_queue state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] osd_bin_0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] tiled_display_tiler state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] tiled_display_queue state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] tiled_display_bin_0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] tracking_tracker state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] tracking_bin state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] primary_gie state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] primary_gie_conv state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] primary_gie_queue state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] primary_gie_bin_0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] src_bin_muxer state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] src_cap_filter_nvvidconv state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] nvvidconv_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] tee_rtsp_post_decode_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] src_que0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] dec_que0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] tee_rtsp_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:42.011] [debug] [bus_callback] src_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:43.010] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:25:43.103] [debug] [bus_callback] depay_elem0 state changed from NULL to READY
+[2026-02-06 16:25:43.103] [debug] [bus_callback] depay_elem0 state changed from READY to PAUSED
+[2026-02-06 16:25:43.103] [debug] [bus_callback] depay_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:43.103] [debug] [bus_callback] h264parse_elem0 state changed from NULL to READY
+[2026-02-06 16:25:43.103] [debug] [bus_callback] h264parse_elem0 state changed from READY to PAUSED
+[2026-02-06 16:25:43.103] [debug] [bus_callback] h264parse_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:44.010] [info] [Performance] test1--0.00--0.00 | 
+[2026-02-06 16:25:44.117] [debug] [bus_callback] manager state changed from NULL to READY
+[2026-02-06 16:25:44.117] [debug] [bus_callback] manager state changed from READY to PAUSED
+[2026-02-06 16:25:44.118] [debug] [bus_callback] rtpssrcdemux0 state changed from NULL to READY
+[2026-02-06 16:25:44.118] [debug] [bus_callback] rtpssrcdemux0 state changed from READY to PAUSED
+[2026-02-06 16:25:44.118] [debug] [bus_callback] rtpsession0 state changed from NULL to READY
+[2026-02-06 16:25:44.118] [debug] [bus_callback] rtpsession0 state changed from READY to PAUSED
+[2026-02-06 16:25:44.118] [debug] [bus_callback] rtpstorage0 state changed from NULL to READY
+[2026-02-06 16:25:44.118] [debug] [bus_callback] rtpstorage0 state changed from READY to PAUSED
+[2026-02-06 16:25:44.125] [debug] [bus_callback] rtpssrcdemux0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:44.125] [debug] [bus_callback] rtpstorage0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:44.125] [debug] [bus_callback] rtpsession0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:44.125] [debug] [bus_callback] manager state changed from PAUSED to PLAYING
+[2026-02-06 16:25:44.158] [debug] [bus_callback] rtpjitterbuffer0 state changed from NULL to READY
+[2026-02-06 16:25:44.159] [debug] [bus_callback] rtpjitterbuffer0 state changed from READY to PAUSED
+[2026-02-06 16:25:44.159] [debug] [bus_callback] rtpjitterbuffer0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:44.159] [debug] [bus_callback] rtpptdemux0 state changed from NULL to READY
+[2026-02-06 16:25:44.159] [debug] [bus_callback] rtpptdemux0 state changed from READY to PAUSED
+[2026-02-06 16:25:44.159] [debug] [bus_callback] rtpptdemux0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:44.181] [debug] [cb_newpad3] Pad can link application/x-rtp, media=(string)video, payload=(int)96, clock-rate=(int)90000, encoding-name=(string)H264, packetization-mode=(string)1, profile-level-id=(string)428028, sprop-parameter-sets=(string)"Z0KAKNoB4AifllIKDAwNoUJq\,aM4G4g\=\=", ssrc=(uint)3594820217, clock-base=(uint)978028533, seqnum-base=(uint)1986, npt-start=(guint64)0, play-speed=(double)1, play-scale=(double)1, onvif-mode=(boolean)false ----------- application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264
+[2026-02-06 16:25:44.186] [debug] [bus_callback] h264parse0 state changed from NULL to READY
+[2026-02-06 16:25:44.187] [debug] [bus_callback] h264parse0 state changed from READY to PAUSED
+[2026-02-06 16:25:44.232] [debug] [bus_callback] nvv4l2decoder0 state changed from NULL to READY
+[2026-02-06 16:25:44.232] [debug] [bus_callback] nvv4l2decoder0 state changed from READY to PAUSED
+[2026-02-06 16:25:44.392] [debug] [bus_callback] decodebin_elem0 state changed from READY to PAUSED
+[2026-02-06 16:25:44.392] [debug] [bus_callback] nvv4l2decoder0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:44.393] [debug] [bus_callback] capsfilter0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:44.393] [debug] [bus_callback] h264parse0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:44.393] [debug] [bus_callback] typefind state changed from PAUSED to PLAYING
+[2026-02-06 16:25:44.393] [debug] [bus_callback] decodebin_elem0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:44.393] [debug] [bus_callback] src_sub_bin0 state changed from PAUSED to PLAYING
+[2026-02-06 16:25:44.393] [debug] [bus_callback] multi_src_bin state changed from PAUSED to PLAYING
+[2026-02-06 16:25:44.393] [debug] [bus_callback] Pipeline state changed from PAUSED to PLAYING
+[2026-02-06 16:25:44.393] [info] [bus_callback] Pipeline running
+[2026-02-06 16:25:45.011] [info] [Performance] test1--15.83--15.78 | 
+[2026-02-06 16:25:46.011] [info] [Performance] test1--15.05--15.28 | 
+[2026-02-06 16:25:47.011] [info] [Performance] test1--14.97--15.17 | 
+[2026-02-06 16:25:48.011] [info] [Performance] test1--14.98--15.12 | 
+[2026-02-06 16:25:49.012] [info] [Performance] test1--15.07--15.09 | 
+[2026-02-06 16:25:50.012] [info] [Performance] test1--14.96--15.08 | 
+[2026-02-06 16:25:51.012] [info] [Performance] test1--15.09--15.06 | 
+[2026-02-06 16:25:52.012] [info] [Performance] test1--14.88--15.06 | 
+[2026-02-06 16:25:53.013] [info] [Performance] test1--15.02--15.05 | 
+[2026-02-06 16:25:54.013] [info] [Performance] test1--14.04--14.94 | 
+[2026-02-06 16:25:55.014] [info] [Performance] test1--14.98--14.94 | 
+[2026-02-06 16:25:56.014] [info] [Performance] test1--14.99--14.95 | 
+[2026-02-06 16:25:57.014] [info] [Performance] test1--15.00--14.95 | 
+[2026-02-06 16:25:58.014] [info] [Performance] test1--15.03--14.96 | 
+[2026-02-06 16:25:59.015] [info] [Performance] test1--14.96--14.96 | 
+[2026-02-06 16:26:00.015] [info] [Performance] test1--14.97--14.96 | 
+[2026-02-06 16:26:01.015] [info] [Performance] test1--15.02--14.96 | 
+[2026-02-06 16:26:02.015] [info] [Performance] test1--15.00--14.96 | 
+[2026-02-06 16:26:03.015] [info] [Performance] test1--14.98--14.97 | 
+[2026-02-06 16:26:04.015] [info] [Performance] test1--15.01--14.97 | 
+[2026-02-06 16:26:05.016] [info] [Performance] test1--15.01--14.97 | 
+[2026-02-06 16:26:06.016] [info] [Performance] test1--14.98--14.97 | 
+[2026-02-06 16:26:07.016] [info] [Performance] test1--15.02--14.97 | 
+[2026-02-06 16:26:08.016] [info] [Performance] test1--15.00--14.97 | 
+[2026-02-06 16:26:09.016] [info] [Performance] test1--14.99--14.97 | 
+[2026-02-06 16:26:10.016] [info] [Performance] test1--15.00--14.97 | 
+[2026-02-06 16:26:11.017] [info] [Performance] test1--15.11--14.98 | 
+[2026-02-06 16:26:12.017] [info] [Performance] test1--15.01--14.98 | 
+[2026-02-06 16:26:13.018] [info] [Performance] test1--14.92--14.98 | 
+[2026-02-06 16:26:14.018] [info] [Performance] test1--14.99--14.98 | 
+[2026-02-06 16:26:15.018] [info] [Performance] test1--14.95--14.98 | 
+[2026-02-06 16:26:16.018] [info] [Performance] test1--15.08--14.98 | 
+[2026-02-06 16:26:17.019] [info] [Performance] test1--14.99--14.98 | 
+[2026-02-06 16:26:18.019] [info] [Performance] test1--14.93--14.98 | 
+[2026-02-06 16:26:19.020] [info] [Performance] test1--15.16--14.98 | 
+[2026-02-06 16:26:20.020] [info] [Performance] test1--14.82--14.98 | 
+[2026-02-06 16:26:21.021] [info] [Performance] test1--15.04--14.98 | 
