@@ -252,7 +252,7 @@ The goal is to determine the maximum number of streams each configuration can su
 
 ## 8. Conclusions
 
-1. **CPU is the primary bottleneck**, not GPU. GPU utilization never exceeds 45% even at maximum stream counts, while CPU approaches saturation (50–54%).
+1. **CPU is the primary bottleneck**, not GPU. 
 
 2. **All models sustain ~8–10 FPS per stream** at high concurrency (7–9 streams). If the target is ≥10 FPS, the practical limit is approximately 4–5 streams.
 
